@@ -1,4 +1,4 @@
 <?php
-class Usuario(){
+class Usuario{
 
 }//fim da class
