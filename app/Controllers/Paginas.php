@@ -9,4 +9,7 @@ class Paginas extends Controllers{
         $dados = ['titulo'=>'Página Inicial', 'descricao'=>'Aula de Php Orientada a Objetos com MVC.'];
         $this->view('paginas/home', $dados);
     }//fim da função index
+    public function contato(){
+        
+    }
 }//fim da classe Paginas
