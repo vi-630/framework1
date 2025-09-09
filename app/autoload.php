@@ -2,9 +2,7 @@
 /**
  * autoload - Responsável pelo carregamento automático das classes
  */
-/**a função sql_autoload_register() registra qualquer número de autoloaders
- * , permitindo que as classes e interfces sejam automaticamente carregadas
- */
+//a função sql_autoload_register() registra qualquer número de autoloaders, permitindo que as classes e interfces sejam automaticamente carregadas
 
 sql_autoload_register(function ($classe){
     //lista de diretórios parabuscar as classes
