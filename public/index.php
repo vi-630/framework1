@@ -1,13 +1,13 @@
 <?php
 include '../app/configuracao.php';
 include '../app/autoload.php';
-
+/*
 $db= new Database;
 $db->query("SELECT * FROM posts");
 $db->resultado();
 echo $db->resultado()->titulo;
 
-/*
+
 $db->query ("SELECT * FROM posts ORDER BY id DESC");
 $db->resultados();
 echo $db->resultado()->titulo;
